@@ -2,7 +2,7 @@ import React from 'react';
 import project1 from './image/project1.jpeg';
 import project2 from './image/project2.jpeg';
 import { Card, Row, Col } from 'react-bootstrap';
-import { easeInOut, motion } from 'framer-motion';
+import {  motion } from 'framer-motion';
 
 function Project() {
   const projectList = () => [

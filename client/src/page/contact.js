@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import {  Row, Col, Form, Button } from 'react-bootstrap';
 import { motion } from 'framer-motion';
-import { toast } from 'react-toastify'; 
 
 
 function Contact() {

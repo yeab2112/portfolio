@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row } from 'react-bootstrap';
 import { motion, useScroll, useSpring } from 'framer-motion';
-import '../component/about.css'; // Import the CSS file for styling
+import '../component/about.css'; 
 
 function About() {
   const { scrollYProgress } = useScroll();
@@ -14,10 +14,9 @@ function About() {
   return (
     <>
       <motion.div
-        style={{ scaleX }} // Apply scaleX to the container, not directly to progress bar
-        className="progress-bar-animate"
-      >
-        <div className="progress-bar" /> {/* The progress bar itself */}
+        style={{ scaleX }}o progress bar
+        className="progress-bar-animate" >
+       
       </motion.div>
       <Row className="justify-content-center h-100 m-5 about-content">
         <h2 className="text-center mt-4">ABOUT ME</h2>

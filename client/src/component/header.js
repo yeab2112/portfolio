@@ -2,8 +2,7 @@ import React from 'react';
 import { Container, Navbar, Nav } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../component/header.css'; // Import your CSS file
-
+import '../component/header.css'; 
 function Header() {
     const activeStyle = {
         color: 'lightgray'
@@ -11,7 +10,7 @@ function Header() {
 
     return (
         <div className='header'>
-            <Navbar expand='lg' fixed='top' className="bg-dark"> {/* Add className for background */}
+            <Navbar expand='lg' fixed='top' className="bg-dark"> 
                 <Container>
                     <Navbar.Brand className='text-white'>
                         Yeabsira Aychiluhim

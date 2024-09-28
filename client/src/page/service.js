@@ -2,8 +2,7 @@ import React from 'react';
 import service1 from './image/service1.jpeg';
 import service2 from './image/service2.jpeg';
 import { Card, Row, Col } from 'react-bootstrap';
-import { motion } from 'framer-motion'; // Import motion for animations
-
+import { motion } from 'framer-motion'; 
 const Service = () => {
   const serviceList = [
     {
@@ -21,8 +20,8 @@ const Service = () => {
   return (
     <motion.div
       animate={{ 
-        scaleY: 1, // Start with scaleY of 1 (full height)
-        transition: { duration: 0.5, ease: 'easeInOut' } // Add transition to scaleY
+        scaleY: 1, 
+        transition: { duration: 0.5, ease: 'easeInOut' } 
       }}
       initial={{ scaleY: 0 }} // Set initial scaleY to 0 (hidden)
     >

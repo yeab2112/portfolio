@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import {  Routes, Route } from 'react-router-dom';
 import Home from './page/home';
 import About from './page/about';
 import Service from './page/service';
@@ -9,8 +9,7 @@ import Header from './component/header';
 import Footer from './component/footer';
 import { AnimatePresence } from 'framer-motion';
 import { useLocation } from 'react-router-dom';
-import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css'; 
+
 function App() {
   const lacation=useLocation()
   return (
