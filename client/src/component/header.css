@@ -1,0 +1,11 @@
+/* Header.css */
+.header {
+    background-color: rgb(105, 108, 115); /* Dark background color */
+    margin-bottom: auto;
+}
+
+
+
+.nav-link:hover {
+    color: lightgray; /* Color on hover */
+}
